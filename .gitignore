@@ -1,0 +1,17 @@
+# Data never enters Git
+data/raw/*
+data/clean/*
+!data/**/.gitkeep
+*.xlsx
+*.csv
+*.parquet
+
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
